@@ -14,7 +14,7 @@ namespace TM1650 {
     let DISPLAY_I2C_ADDRESS = 0x34
     let _SEG = [0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71];
 
-    let _intensity = 3
+    let _intensity = 7
     let dbuf = [0, 0, 0, 0]
 
     /**
@@ -128,9 +128,10 @@ namespace TM1650 {
 
     /**
      * set display intensity
-     * @param dat is intensity of the display, eg: 3
+     * @param dat is intensity of the display, eg: 7
      */
     //% blockId="TM650_INTENSITY" block="set intensity %dat"
+    //% dat.min=0 speed.max=8
     //% weight=70 blockGap=8
     export function setIntensity(dat: number) {
         if ((dat < 0) || (dat > 8))
