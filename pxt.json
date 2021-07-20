@@ -1,6 +1,6 @@
 {
     "name": "TM1650",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "makecode TM1650 (Digit Display) package for micro:bit",
     "license": "MIT",
     "dependencies": {
