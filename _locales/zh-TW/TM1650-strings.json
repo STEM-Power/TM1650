@@ -1,0 +1,12 @@
+{
+  "TM1650.clear|block": "清除顯示",
+  "TM1650.digit|block": "顯示數值 %num|於位置 %bit",
+  "TM1650.off|block": "關閉顯示",
+  "TM1650.on|block": "開啟顯示",
+  "TM1650.setIntensity|block": "設定顯示亮度 %dat",
+  "TM1650.showDpAt|block": "顯示小數點於位置 %bit|顯示 %num",
+  "TM1650.showHex|block": "以16進制顯示數值 %num",
+  "TM1650.showNumber|block": "顯示數值 %num",
+  "TM1650|block": "TM1650",
+  "{id:category}TM1650": "TM1650"
+}

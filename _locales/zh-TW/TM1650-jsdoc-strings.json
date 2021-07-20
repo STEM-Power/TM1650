@@ -1,0 +1,17 @@
+{
+  "TM1650": "STEM Power 四位數字顯示模塊 (TM1650) microbit 擴充.\nFrom microbit/micropython Chinese community.\nhttp://www.micropython.org.cn\n\nTM1650 digit Display",
+  "TM1650.clear": "清除顯示",
+  "TM1650.digit": "在指定位置顯示數字",
+  "TM1650.digit|param|bit": "顯示的位置, eg: 0",
+  "TM1650.off": "關閉顯示",
+  "TM1650.on": "開啟顯示",
+  "TM1650.setIntensity": "設定顯示亮度",
+  "TM1650.setIntensity|param|dat": "顯示亮度, eg: 7",
+  "TM1650.showDpAt": "在指定位置顯示小數點",
+  "TM1650.showDpAt|param|bit": "顯示的位置, eg: 0",
+  "TM1650.showDpAt|param|show": "是與非, eg: 是",
+  "TM1650.showHex": "以16進制顯示數值",
+  "TM1650.showHex|param|num": "顯示的數值, eg: 123",
+  "TM1650.showNumber": "顯示數值",
+  "TM1650.showNumber|param|num": "顯示的數值, eg: 100"
+}
